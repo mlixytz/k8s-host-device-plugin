@@ -6,27 +6,12 @@ metadata:
 data:
   config.json: |
     {
-      "resourceName": "sm.com/ib",
-      "socketName": "sm-ib.sock",
+      "resourceName": "github.com/mlixytz/ib",
+      "socketName": "mlixytz-ib.sock",
       "numDevices": 1000,
       "hostDevices": [{
         "hostPath": "/dev/infiniband/uverbs0",
         "containerPath": "/dev/infiniband/uverbs0",
-        "permission": "rwm"
-      },
-      {
-        "hostPath": "/dev/infiniband/uverbs1" ,
-        "containerPath": "/dev/infiniband/uverbs1",
-        "permission": "rwm"
-      },
-      {
-        "hostPath": "/dev/infiniband/uverbs2" ,
-        "containerPath": "/dev/infiniband/uverbs2",
-        "permission": "rwm"
-      },
-      {
-        "hostPath": "/dev/infiniband/uverbs3" ,
-        "containerPath": "/dev/infiniband/uverbs3",
         "permission": "rwm"
       },
       {
